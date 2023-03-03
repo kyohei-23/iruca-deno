@@ -1,0 +1,6 @@
+{
+  "deno.codeLens.referencesAllFunctions": true,
+  "deno.inlayHints.propertyDeclarationTypes.enabled": true,
+  "deno.inlayHints.parameterTypes.enabled": true,
+  "deno.enable": true
+}
