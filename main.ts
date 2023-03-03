@@ -6,7 +6,7 @@ import { serve } from "https://deno.land/std@0.177.0/http/server.ts";
 
 
 serve(async (req)=> {
-  const body:JSON = await req.json()
-  const body_string = JSON.stringify(body)
+  const body = await req.json()
+  const body_string = body.str
   return new Response(body_string)
 })
