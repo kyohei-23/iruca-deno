@@ -36,6 +36,6 @@ import { scheduleJob } from "https://esm.sh/node-schedule@2.1.1"
 //   return new Response(body_string)
 // })
 
-scheduleJob(new Date('2023-03-14T16:00:00'), ()=>{
+scheduleJob("0 30 * * * *", ()=>{
   console.log("scheduled job is fired")
 })
