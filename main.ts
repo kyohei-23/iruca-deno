@@ -1,6 +1,5 @@
 // import { serve } from "https://deno.land/std@0.177.0/http/server.ts";
-// @deno-types="npm:@types/node-schedule"
-import { scheduleJob } from "npm:node-schedule"
+import { scheduleJob } from "https://esm.sh/node-schedule@2.1.1"
 
 // const ROOM_ID = Deno.env.get('ROOM_ID')
 // const API_KEY = Deno.env.get('API_KEY')

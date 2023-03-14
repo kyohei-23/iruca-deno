@@ -1,0 +1,12 @@
+{
+  "imports": {
+    "node-schedule": "https://esm.sh/v111/*node-schedule@2.1.1"
+  },
+  "scopes": {
+    "https://esm.sh/v111/": {
+      "cron-parser": "https://esm.sh/v111/cron-parser@4.8.1",
+      "long-timeout": "https://esm.sh/v111/long-timeout@0.1.1",
+      "sorted-array-functions": "https://esm.sh/v111/sorted-array-functions@1.3.0"
+    }
+  }
+}
